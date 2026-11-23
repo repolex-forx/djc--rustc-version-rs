@@ -1,0 +1,31 @@
+{
+  "manifest_version": "1.0",
+  "org": "djc",
+  "repo": "rustc-version-rs",
+  "versions": [
+    {
+      "commit": "eeca449cca83e24150e46739e797aa82e9142809",
+      "parsed_at": "2026-11-23T02:45:42.715217+00:00",
+      "tag": "v0.4.1",
+      "filetree": "filetree/eeca449cca83e24150e46739e797aa82e9142809.nq.gz",
+      "blobs": [
+        "blob/0c7c487bc9f94b994bf382cb4ec64ec5b677ec46.nq.gz",
+        "blob/d14c768a4441fcab0a4b3fab74d0946a73055ddf.nq.gz",
+        "blob/ab173681c143b4cebdac660f5ec1cb18ee234d67.nq.gz",
+        "blob/40b8817a47beba464cd86e3f81260cd41b5e70dd.nq.gz",
+        "blob/16fe87b06e802f094b3fbb0894b137bca2b16ef1.nq.gz",
+        "blob/9f3f7a5c85d8c175676de419a2cc67e3e7124fa0.nq.gz",
+        "blob/93a41648a70f65ae560f7d3e2c26448241324f39.nq.gz",
+        "blob/22d9b57effec56512c54a9d2c018591684b20c07.nq.gz",
+        "blob/c3cff7048a8df1dc61e30abc34488bf78c089cef.nq.gz",
+        "blob/6a1c4f8b167dca2cce48f6996208b21e84a2676b.nq.gz",
+        "blob/90ee18eeb6dc1544f8510934c1db47966170ed42.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
