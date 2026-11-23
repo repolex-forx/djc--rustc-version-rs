@@ -1,0 +1,11 @@
+{
+  "org": "djc",
+  "repo": "rustc-version-rs",
+  "versions": [
+    {
+      "commit": "eeca449cca83e24150e46739e797aa82e9142809",
+      "tag": "v0.4.1",
+      "parsed_at": "2026-11-23T02:51:19.589344+00:00"
+    }
+  ]
+}
