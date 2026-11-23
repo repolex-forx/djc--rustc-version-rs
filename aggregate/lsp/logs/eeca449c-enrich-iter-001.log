@@ -1,0 +1,16 @@
+[2026-11-23T02:48:49Z] === ENRICH ITERATION 1 START | repo=djc/rustc-version-rs sha=eeca449c ===
+[2026-11-23T02:48:49Z] [iter=1] PHASE START: enrich repo=djc/rustc-version-rs sha=eeca449c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/eeca449c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/eeca449cca83e24150e46739e797aa82e9142809.nq.gz
+[2026-11-23T02:48:53Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T02:48:53Z] [iter=1] AST store loaded triples=25145 load_secs=0 mem_mb=115 MB
+[2026-11-23T02:48:53Z] [iter=1] Step 2: Finding LSP targets mem_mb=115 MB
+[2026-11-23T02:48:53Z] [iter=1] LSP targets found call_sites=236 imports=4 extends=0 implements=0 secs=0
+[2026-11-23T02:48:53Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=115 MB
+[2026-11-23T02:48:53Z] [iter=1] Position index built positions=1769 nodes_with_types=2124 secs=0 mem_mb=115 MB
+[2026-11-23T02:48:53Z] [iter=1] Step 3: Starting LSP resolution mem_mb=115 MB already_completed_types=[] already_completed_files=0
+[2026-11-23T02:48:53Z] [iter=1] Resolving target type target_type=call_site count=236
+[2026-11-23T02:49:04Z] [iter=1] Target type resolved target_type=call_site resolved=214 errors=0 secs=11 mem_mb=115 MB
+[2026-11-23T02:49:04Z] [iter=1] Resolving target type target_type=import_statement count=4
+[2026-11-23T02:49:11Z] [iter=1] Target type resolved target_type=import_statement resolved=4 errors=0 secs=7 mem_mb=115 MB
+[2026-11-23T02:49:21Z] [iter=1] Step 5: Writing final enrichment file triples=2686
+[2026-11-23T02:49:21Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/eeca449cca83e24150e46739e797aa82e9142809.nq.gz size_kb=37
+[2026-11-23T02:49:21Z] [iter=1] PHASE END: enrich elapsed_s=32 elapsed_min=0.5 total_triples=2686
